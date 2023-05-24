@@ -4,7 +4,7 @@ function get_calc(btn) {
       document.dentaku.display.value = eval(document.dentaku.display.value);
     }
     catch {
-
+      alert('エラーです')
     }
   } else if (btn.value == "C") {
     document.dentaku.display.value = "";
