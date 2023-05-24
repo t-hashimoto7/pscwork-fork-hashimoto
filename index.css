@@ -74,6 +74,16 @@ input:active {
   :active #2c80b4   クリック時
 */
 
+input.operator{
+  background-color: #87cefa ;
+}
+input.operator:hover{
+  background-color: #339cdd ;
+}
+input.operator:active{
+  background-color: #2c80b4 ;
+}
+
 
 
 
